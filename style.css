@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fundo geral */
+body {
+    background-color: #edabbe;
+    color: #5a4a4f;
+}
+
+/* Header */
+header {
+    background-color: #f8dfe6;
+    padding: 15px 0;
+    border-bottom: 2px solid #f3c7d3;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #a86c7d;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #d48fa3;
+}
+
+/* Seções */
+.secao {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff0f5;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #c97a91;
+    margin-bottom: 15px;
+}
+
+/* Texto */
+p {
+    line-height: 1.6;
+}
+
+/* Projetos */
+.lista-projetos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card-projeto {
+    background-color: #f8dfe6;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    transition: 0.3s;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+.btn-projeto {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ffffff;
+    color: #c97a91;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 2px solid #c97a91;
+    transition: 0.3s;
+}
+
+/* efeito hover */
+.btn-projeto:hover {
+    background-color: #c97a91;
+    color: white;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    background-color: #f3c7d3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe5ec;
+    margin-top: 40px;
+    border-top: 2px solid #f3c7d3;
+}
